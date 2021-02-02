@@ -1,0 +1,6 @@
+framework module Pods_tayotayo {
+  umbrella header "Pods-tayotayo-umbrella.h"
+
+  export *
+  module * { export * }
+}

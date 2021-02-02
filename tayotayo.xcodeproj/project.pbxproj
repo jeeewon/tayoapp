@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022E0E176F542B7F6CC773AE /* Pods_tayotayo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3FCC13D5F35A65D973CE80 /* Pods_tayotayo.framework */; };
+		2A1217D6350D1F62C9FF459A /* Pods_tayotayoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27A3F8294267C9EFF9A9210 /* Pods_tayotayoTests.framework */; };
+		2FDCBBA77D7B65298CCCBD73 /* Pods_tayotayoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63D30B3AAAC282C1A63FC5A /* Pods_tayotayoUITests.framework */; };
+		581EAE7425C6FC22006FEC77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581EAE7325C6FC22006FEC77 /* AppDelegate.swift */; };
+		581EAE7625C6FC22006FEC77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581EAE7525C6FC22006FEC77 /* SceneDelegate.swift */; };
+		581EAE7825C6FC22006FEC77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581EAE7725C6FC22006FEC77 /* ViewController.swift */; };
+		581EAE7B25C6FC22006FEC77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581EAE7925C6FC22006FEC77 /* Main.storyboard */; };
+		581EAE7D25C6FC23006FEC77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581EAE7C25C6FC23006FEC77 /* Assets.xcassets */; };
+		581EAE8025C6FC23006FEC77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581EAE7E25C6FC23006FEC77 /* LaunchScreen.storyboard */; };
+		581EAE8B25C6FC23006FEC77 /* tayotayoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581EAE8A25C6FC23006FEC77 /* tayotayoTests.swift */; };
+		581EAE9625C6FC23006FEC77 /* tayotayoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581EAE9525C6FC23006FEC77 /* tayotayoUITests.swift */; };
+		581EAEE625C6FCCB006FEC77 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 581EAEE525C6FCCB006FEC77 /* GoogleService-Info-3.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		581EAE8725C6FC23006FEC77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581EAE6825C6FC22006FEC77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581EAE6F25C6FC22006FEC77;
+			remoteInfo = tayotayo;
+		};
+		581EAE9225C6FC23006FEC77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581EAE6825C6FC22006FEC77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581EAE6F25C6FC22006FEC77;
+			remoteInfo = tayotayo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D754122916F86BE6520DFF /* Pods-tayotayoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tayotayoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tayotayoUITests/Pods-tayotayoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D09BD4692E21D9863754A80 /* Pods-tayotayo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tayotayo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tayotayo/Pods-tayotayo.debug.xcconfig"; sourceTree = "<group>"; };
+		25CCC016931A96E360C5761A /* Pods-tayotayoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tayotayoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tayotayoUITests/Pods-tayotayoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DCA896FADA952D709183500 /* Pods-tayotayoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tayotayoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tayotayoTests/Pods-tayotayoTests.release.xcconfig"; sourceTree = "<group>"; };
+		581EAE7025C6FC22006FEC77 /* tayotayo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tayotayo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		581EAE7325C6FC22006FEC77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		581EAE7525C6FC22006FEC77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		581EAE7725C6FC22006FEC77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		581EAE7A25C6FC22006FEC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		581EAE7C25C6FC23006FEC77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		581EAE7F25C6FC23006FEC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		581EAE8125C6FC23006FEC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581EAE8625C6FC23006FEC77 /* tayotayoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tayotayoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581EAE8A25C6FC23006FEC77 /* tayotayoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tayotayoTests.swift; sourceTree = "<group>"; };
+		581EAE8C25C6FC23006FEC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581EAE9125C6FC23006FEC77 /* tayotayoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tayotayoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581EAE9525C6FC23006FEC77 /* tayotayoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tayotayoUITests.swift; sourceTree = "<group>"; };
+		581EAE9725C6FC23006FEC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581EAEE525C6FCCB006FEC77 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-3.plist"; path = "../../../../Downloads/GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		64EB63C019D527B26CC0213C /* Pods-tayotayo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tayotayo.release.xcconfig"; path = "Pods/Target Support Files/Pods-tayotayo/Pods-tayotayo.release.xcconfig"; sourceTree = "<group>"; };
+		B27A3F8294267C9EFF9A9210 /* Pods_tayotayoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tayotayoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86D44FF5CDE56D3BB6F5E75 /* Pods-tayotayoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tayotayoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tayotayoTests/Pods-tayotayoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F63D30B3AAAC282C1A63FC5A /* Pods_tayotayoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tayotayoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3FCC13D5F35A65D973CE80 /* Pods_tayotayo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tayotayo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		581EAE6D25C6FC22006FEC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022E0E176F542B7F6CC773AE /* Pods_tayotayo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581EAE8325C6FC23006FEC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1217D6350D1F62C9FF459A /* Pods_tayotayoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581EAE8E25C6FC23006FEC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDCBBA77D7B65298CCCBD73 /* Pods_tayotayoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581EAE6725C6FC22006FEC77 = {
+			isa = PBXGroup;
+			children = (
+				581EAE7225C6FC22006FEC77 /* tayotayo */,
+				581EAE8925C6FC23006FEC77 /* tayotayoTests */,
+				581EAE9425C6FC23006FEC77 /* tayotayoUITests */,
+				581EAE7125C6FC22006FEC77 /* Products */,
+				C3B61113986A162CD7AA1043 /* Pods */,
+				618BB095BAF6425D140797EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		581EAE7125C6FC22006FEC77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				581EAE7025C6FC22006FEC77 /* tayotayo.app */,
+				581EAE8625C6FC23006FEC77 /* tayotayoTests.xctest */,
+				581EAE9125C6FC23006FEC77 /* tayotayoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		581EAE7225C6FC22006FEC77 /* tayotayo */ = {
+			isa = PBXGroup;
+			children = (
+				581EAE7325C6FC22006FEC77 /* AppDelegate.swift */,
+				581EAE7525C6FC22006FEC77 /* SceneDelegate.swift */,
+				581EAE7725C6FC22006FEC77 /* ViewController.swift */,
+				581EAE7925C6FC22006FEC77 /* Main.storyboard */,
+				581EAE7C25C6FC23006FEC77 /* Assets.xcassets */,
+				581EAE7E25C6FC23006FEC77 /* LaunchScreen.storyboard */,
+				581EAE8125C6FC23006FEC77 /* Info.plist */,
+				581EAEE525C6FCCB006FEC77 /* GoogleService-Info-3.plist */,
+			);
+			path = tayotayo;
+			sourceTree = "<group>";
+		};
+		581EAE8925C6FC23006FEC77 /* tayotayoTests */ = {
+			isa = PBXGroup;
+			children = (
+				581EAE8A25C6FC23006FEC77 /* tayotayoTests.swift */,
+				581EAE8C25C6FC23006FEC77 /* Info.plist */,
+			);
+			path = tayotayoTests;
+			sourceTree = "<group>";
+		};
+		581EAE9425C6FC23006FEC77 /* tayotayoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				581EAE9525C6FC23006FEC77 /* tayotayoUITests.swift */,
+				581EAE9725C6FC23006FEC77 /* Info.plist */,
+			);
+			path = tayotayoUITests;
+			sourceTree = "<group>";
+		};
+		618BB095BAF6425D140797EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FCC13D5F35A65D973CE80 /* Pods_tayotayo.framework */,
+				B27A3F8294267C9EFF9A9210 /* Pods_tayotayoTests.framework */,
+				F63D30B3AAAC282C1A63FC5A /* Pods_tayotayoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B61113986A162CD7AA1043 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D09BD4692E21D9863754A80 /* Pods-tayotayo.debug.xcconfig */,
+				64EB63C019D527B26CC0213C /* Pods-tayotayo.release.xcconfig */,
+				D86D44FF5CDE56D3BB6F5E75 /* Pods-tayotayoTests.debug.xcconfig */,
+				4DCA896FADA952D709183500 /* Pods-tayotayoTests.release.xcconfig */,
+				25CCC016931A96E360C5761A /* Pods-tayotayoUITests.debug.xcconfig */,
+				00D754122916F86BE6520DFF /* Pods-tayotayoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		581EAE6F25C6FC22006FEC77 /* tayotayo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581EAE9A25C6FC23006FEC77 /* Build configuration list for PBXNativeTarget "tayotayo" */;
+			buildPhases = (
+				B213E26D0E3E6A08666DB488 /* [CP] Check Pods Manifest.lock */,
+				581EAE6C25C6FC22006FEC77 /* Sources */,
+				581EAE6D25C6FC22006FEC77 /* Frameworks */,
+				581EAE6E25C6FC22006FEC77 /* Resources */,
+				9698542BDB3675B2A27DC87A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tayotayo;
+			productName = tayotayo;
+			productReference = 581EAE7025C6FC22006FEC77 /* tayotayo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		581EAE8525C6FC23006FEC77 /* tayotayoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581EAE9D25C6FC23006FEC77 /* Build configuration list for PBXNativeTarget "tayotayoTests" */;
+			buildPhases = (
+				149D02FEAF7601BB14AC51EE /* [CP] Check Pods Manifest.lock */,
+				581EAE8225C6FC23006FEC77 /* Sources */,
+				581EAE8325C6FC23006FEC77 /* Frameworks */,
+				581EAE8425C6FC23006FEC77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581EAE8825C6FC23006FEC77 /* PBXTargetDependency */,
+			);
+			name = tayotayoTests;
+			productName = tayotayoTests;
+			productReference = 581EAE8625C6FC23006FEC77 /* tayotayoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		581EAE9025C6FC23006FEC77 /* tayotayoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581EAEA025C6FC23006FEC77 /* Build configuration list for PBXNativeTarget "tayotayoUITests" */;
+			buildPhases = (
+				6D82A03ED556D992DDB816F6 /* [CP] Check Pods Manifest.lock */,
+				581EAE8D25C6FC23006FEC77 /* Sources */,
+				581EAE8E25C6FC23006FEC77 /* Frameworks */,
+				581EAE8F25C6FC23006FEC77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581EAE9325C6FC23006FEC77 /* PBXTargetDependency */,
+			);
+			name = tayotayoUITests;
+			productName = tayotayoUITests;
+			productReference = 581EAE9125C6FC23006FEC77 /* tayotayoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		581EAE6825C6FC22006FEC77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					581EAE6F25C6FC22006FEC77 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					581EAE8525C6FC23006FEC77 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 581EAE6F25C6FC22006FEC77;
+					};
+					581EAE9025C6FC23006FEC77 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 581EAE6F25C6FC22006FEC77;
+					};
+				};
+			};
+			buildConfigurationList = 581EAE6B25C6FC22006FEC77 /* Build configuration list for PBXProject "tayotayo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 581EAE6725C6FC22006FEC77;
+			productRefGroup = 581EAE7125C6FC22006FEC77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				581EAE6F25C6FC22006FEC77 /* tayotayo */,
+				581EAE8525C6FC23006FEC77 /* tayotayoTests */,
+				581EAE9025C6FC23006FEC77 /* tayotayoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581EAE6E25C6FC22006FEC77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581EAE8025C6FC23006FEC77 /* LaunchScreen.storyboard in Resources */,
+				581EAE7D25C6FC23006FEC77 /* Assets.xcassets in Resources */,
+				581EAE7B25C6FC22006FEC77 /* Main.storyboard in Resources */,
+				581EAEE625C6FCCB006FEC77 /* GoogleService-Info-3.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581EAE8425C6FC23006FEC77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581EAE8F25C6FC23006FEC77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		149D02FEAF7601BB14AC51EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tayotayoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D82A03ED556D992DDB816F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tayotayoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9698542BDB3675B2A27DC87A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tayotayo/Pods-tayotayo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXMLParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tayotayo/Pods-tayotayo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B213E26D0E3E6A08666DB488 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tayotayo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		581EAE6C25C6FC22006FEC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581EAE7825C6FC22006FEC77 /* ViewController.swift in Sources */,
+				581EAE7425C6FC22006FEC77 /* AppDelegate.swift in Sources */,
+				581EAE7625C6FC22006FEC77 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581EAE8225C6FC23006FEC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581EAE8B25C6FC23006FEC77 /* tayotayoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581EAE8D25C6FC23006FEC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581EAE9625C6FC23006FEC77 /* tayotayoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		581EAE8825C6FC23006FEC77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581EAE6F25C6FC22006FEC77 /* tayotayo */;
+			targetProxy = 581EAE8725C6FC23006FEC77 /* PBXContainerItemProxy */;
+		};
+		581EAE9325C6FC23006FEC77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581EAE6F25C6FC22006FEC77 /* tayotayo */;
+			targetProxy = 581EAE9225C6FC23006FEC77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		581EAE7925C6FC22006FEC77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581EAE7A25C6FC22006FEC77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		581EAE7E25C6FC23006FEC77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581EAE7F25C6FC23006FEC77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		581EAE9825C6FC23006FEC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		581EAE9925C6FC23006FEC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		581EAE9B25C6FC23006FEC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D09BD4692E21D9863754A80 /* Pods-tayotayo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z89QWDD25;
+				INFOPLIST_FILE = tayotayo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.tayotayo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		581EAE9C25C6FC23006FEC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EB63C019D527B26CC0213C /* Pods-tayotayo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z89QWDD25;
+				INFOPLIST_FILE = tayotayo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.tayotayo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		581EAE9E25C6FC23006FEC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86D44FF5CDE56D3BB6F5E75 /* Pods-tayotayoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z89QWDD25;
+				INFOPLIST_FILE = tayotayoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.tayotayoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tayotayo.app/tayotayo";
+			};
+			name = Debug;
+		};
+		581EAE9F25C6FC23006FEC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCA896FADA952D709183500 /* Pods-tayotayoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z89QWDD25;
+				INFOPLIST_FILE = tayotayoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.tayotayoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tayotayo.app/tayotayo";
+			};
+			name = Release;
+		};
+		581EAEA125C6FC23006FEC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CCC016931A96E360C5761A /* Pods-tayotayoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z89QWDD25;
+				INFOPLIST_FILE = tayotayoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.tayotayoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tayotayo;
+			};
+			name = Debug;
+		};
+		581EAEA225C6FC23006FEC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D754122916F86BE6520DFF /* Pods-tayotayoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z89QWDD25;
+				INFOPLIST_FILE = tayotayoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.tayotayoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tayotayo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		581EAE6B25C6FC22006FEC77 /* Build configuration list for PBXProject "tayotayo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581EAE9825C6FC23006FEC77 /* Debug */,
+				581EAE9925C6FC23006FEC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581EAE9A25C6FC23006FEC77 /* Build configuration list for PBXNativeTarget "tayotayo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581EAE9B25C6FC23006FEC77 /* Debug */,
+				581EAE9C25C6FC23006FEC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581EAE9D25C6FC23006FEC77 /* Build configuration list for PBXNativeTarget "tayotayoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581EAE9E25C6FC23006FEC77 /* Debug */,
+				581EAE9F25C6FC23006FEC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581EAEA025C6FC23006FEC77 /* Build configuration list for PBXNativeTarget "tayotayoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581EAEA125C6FC23006FEC77 /* Debug */,
+				581EAEA225C6FC23006FEC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 581EAE6825C6FC22006FEC77 /* Project object */;
+}
