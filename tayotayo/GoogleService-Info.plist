@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>899710453194-dm73isguuucoh9qspk16akb1js6nh8vf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.899710453194-dm73isguuucoh9qspk16akb1js6nh8vf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB8F6cAJ1tkburG3QKp3epefdSM3qP-gLw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>899710453194</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.swift.DDing-Dong</string>
+	<key>PROJECT_ID</key>
+	<string>doing-dong</string>
+	<key>STORAGE_BUCKET</key>
+	<string>doing-dong.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:899710453194:ios:cf1c5eafed0acb0d66bb33</string>
+</dict>
+</plist>
